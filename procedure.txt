@@ -1,0 +1,5 @@
+python -m venv myenv
+
+source myenv/Scripts/activate
+
+pip install django
