@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "category",
+    "accounts",
 ]
 
 MIDDLEWARE = [
@@ -69,6 +70,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "ecomshop.wsgi.application"
+
+AUTH_USER_MODEL = "accounts.Account"  # specifies the custom user model to be used for authentication and authorization in the project.
 
 
 # Database
